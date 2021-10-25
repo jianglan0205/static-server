@@ -52,7 +52,3 @@ var server = http.createServer(function (request, response) {
 
 server.listen(port)
 console.log('监听 ' + port + ' 成功\n请用在空中转体720度然后用电饭煲打开 http://localhost:' + port)
-
-
-
-    //如果path是/就让/变成/index.html,如果不是/就不变
